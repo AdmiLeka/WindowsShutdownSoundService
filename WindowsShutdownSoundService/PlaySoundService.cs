@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace WindowsShutdownSoundService
 {
-    public partial class Service1 : ServiceBase
+    public partial class PlaySoundService : ServiceBase
     {
-        public Service1()
+        public PlaySoundService()
         {
             InitializeComponent();
         }

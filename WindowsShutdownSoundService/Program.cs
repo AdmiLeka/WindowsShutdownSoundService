@@ -17,7 +17,7 @@ namespace WindowsShutdownSoundService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new PlaySoundService()
             };
             ServiceBase.Run(ServicesToRun);
         }

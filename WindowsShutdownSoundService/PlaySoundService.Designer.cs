@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsShutdownSoundService
 {
-    partial class Service1
+    partial class PlaySoundService
     {
         /// <summary> 
         /// Required designer variable.
